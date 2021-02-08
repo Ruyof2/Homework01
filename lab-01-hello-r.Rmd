@@ -16,4 +16,4 @@ library(datasauRus)
 
 ### Lab Exercise
 
-answer for task3:the value of dinosaurs is higher them
+answer for task 4: the star value is higher than it
