@@ -16,4 +16,4 @@ library(datasauRus)
 
 ### Lab Exercise
 
-Homework1
+seattlepets %>% count(animal_name, sort = TRUE)
