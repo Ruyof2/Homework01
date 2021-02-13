@@ -195,14 +195,14 @@ summary {
 </div>
 
 
-<p>University ID:s2201003185</p>
+<p>University ID:2201003185</p>
 <div id="load-packages" class="section level3">
 <h3>Load packages</h3>
 <p><code>{r load-packages, message=FALSE}library(tidyverse)  library(datasauRus)</code></p>
 </div>
 <div id="lab-exercise" class="section level3">
 <h3>Lab Exercise</h3>
-<p>seattlepets %&gt;% count(animal_name, sort = TRUE)</p>
+<p>seattlepets %&gt;% group_by(species) %&gt;% count(animal_name, sort = TRUE)</p>
 </div>
 
 

@@ -5,7 +5,7 @@ date: "13/2/2021"
 output: html_document
 ---
 
-University ID:s2201003185 
+University ID:2201003185 
 
 ### Load packages
 
@@ -16,4 +16,4 @@ library(datasauRus)
 
 ### Lab Exercise
 
-seattlepets %>% count(animal_name, sort = TRUE)
+seattlepets %>% group_by(species) %>% count(animal_name, sort = TRUE)
