@@ -1,11 +1,11 @@
 ---
 title: "Homework1 - Hello R"
-author: "Ruyof mohammed almotiry2 "
+author: "Ruyof mohammed almotiry "
 date: "13/2/2021"
 output: html_document
 ---
 
-University ID:2201003185 
+University ID:s2201003185 
 
 ### Load packages
 
