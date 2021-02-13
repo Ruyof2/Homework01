@@ -16,4 +16,4 @@ library(datasauRus)
 
 ### Lab Exercise
 
-seattlepets %>% group_by(species) %>% count(animal_name, sort = TRUE)
+seattlepets %>% count(species, sort = TRUE)   Dogs number more than cats in this group
