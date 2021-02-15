@@ -27,6 +27,8 @@ library(ggrpel)
 
 ### Lab Exercise
 
+an 1 :
+52519
 
 
 
