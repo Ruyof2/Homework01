@@ -55,3 +55,6 @@ slice_max(n, n = 5) %>% arrange(species, n)
 
 an 5 :
 oliver and lily 
+
+an 6 :
+The relationship between them is mutually exclusive, because the more cat names, the greater the number of dog names
