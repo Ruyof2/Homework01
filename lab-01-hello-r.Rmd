@@ -30,6 +30,9 @@ library(ggrpel)
 an 1 :
 52519
 
+an 2 :
+variables = 7
+
 
 
 
