@@ -16,4 +16,7 @@ library(datasauRus)
 
 ### Lab Exercise
 
-seattlepets %>% group_by(species) %>% count(animal_name, sort = TRUE) %>% slice_max(n, n = 5)    The most common names among dogs are:Lucy , charlie  The most common names among cats are:NA , Luna 
+>head(datasaurus_dozen)
+>summary(datasaurus_dozen)
+>View(datasaurus_dozen) 
+
