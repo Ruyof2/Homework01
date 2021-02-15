@@ -43,6 +43,14 @@ seattlepets %>%
   count(animal_name, sort = TRUE)
 ```
 
+an 4 :
 
+```{r specles.name.top5, eval = TRUE}
+seattlepets %>% 
+group_by(species) %>% 
+count(animal_name, sort = TRUE) %>% 
+slice_max(n, n = 5) %>% arrange(species, n)
+
+```
 
 
